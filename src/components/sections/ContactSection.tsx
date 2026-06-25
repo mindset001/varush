@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
-import ContactForm from "@/components/ContactForm";
+import ContactSceneLoader from "@/components/ContactSceneLoader";
 import { company } from "@/lib/data";
 
 export default function ContactSection() {
@@ -39,7 +39,12 @@ export default function ContactSection() {
           </Reveal>
 
           <Reveal delay={0.2} className="md:col-span-2">
-            <ContactForm />
+            <div className="relative h-[420px] overflow-hidden rounded-xl border border-slate-200 shadow-sm">
+              <ContactSceneLoader />
+              <p className="pointer-events-none absolute bottom-4 left-1/2 -translate-x-1/2 text-xs text-slate-300">
+                Drag to explore
+              </p>
+            </div>
           </Reveal>
         </div>
       </Container>
