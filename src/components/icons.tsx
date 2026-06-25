@@ -45,3 +45,42 @@ export function SupplyIcon({ className = "" }: { className?: string }) {
     </svg>
   );
 }
+
+export function RoadIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className}>
+      <path d="M8 4 4.5 20" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M16 4l3.5 16" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M11.3 9.5h1.4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M10.6 14h2.8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function BoltIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className}>
+      <path
+        d="M13 3 6 13h4.5L10 21l8-11h-4.5L13 3Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function LeafIcon({ className = "" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className}>
+      <path
+        d="M5 19c-1-6 1-12 7-15 6 1 9 6 7 12-3 6-9 6-14 3Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+      <path d="M6 18c3-4 6-7 11-12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}

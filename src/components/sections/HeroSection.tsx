@@ -24,6 +24,9 @@ export default function HeroSection() {
           construction process from concept and design, through procurement
           and construction, to closeout and client occupancy.
         </p>
+        <p className="mt-3 max-w-xl text-sm italic text-slate-400">
+          &ldquo;{company.motto}&rdquo;
+        </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="#contact"

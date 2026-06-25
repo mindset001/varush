@@ -6,6 +6,9 @@ import {
   CraneIcon,
   ChecklistIcon,
   SupplyIcon,
+  RoadIcon,
+  BoltIcon,
+  LeafIcon,
 } from "@/components/icons";
 import { services } from "@/lib/data";
 
@@ -14,6 +17,9 @@ const ICONS = {
   crane: CraneIcon,
   checklist: ChecklistIcon,
   supply: SupplyIcon,
+  road: RoadIcon,
+  bolt: BoltIcon,
+  leaf: LeafIcon,
 };
 
 export default function ServicesSection() {
